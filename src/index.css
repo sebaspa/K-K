@@ -1,68 +1,47 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@theme {
+  --color-brick-red-50: #fff1f2;
+  --color-brick-red-100: #ffe4e6;
+  --color-brick-red-200: #fecdd3;
+  --color-brick-red-300: #fda4b0;
+  --color-brick-red-400: #fb7186;
+  --color-brick-red-500: #f43f5f;
+  --color-brick-red-600: #e11d49;
+  --color-brick-red-700: #d01443;
+  --color-brick-red-800: #9f123a;
+  --color-brick-red-900: #881338;
+  --color-brick-red-950: #4c0519;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  --color-boulder-50: #f6f6f6;
+  --color-boulder-100: #e7e7e7;
+  --color-boulder-200: #d1d1d1;
+  --color-boulder-300: #b0b0b0;
+  --color-boulder-400: #888888;
+  --color-boulder-500: #7a7a7a;
+  --color-boulder-600: #5d5d5d;
+  --color-boulder-700: #4f4f4f;
+  --color-boulder-800: #454545;
+  --color-boulder-900: #3d3d3d;
+  --color-boulder-950: #262626;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  --font-display: "Roboto", sans-serif;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.btn {
+  @apply inline-block whitespace-nowrap align-middle select-none overflow-visible;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.btn--md {
+  @apply py-2 px-10 md:px-3 text-sm font-medium rounded-sm;
+}
+
+.btn--outline-white {
+  @apply bg-transparent border border-white;
+}
+
+.btn--outline-red {
+  @apply bg-transparent border border-brick-red-700;
 }
