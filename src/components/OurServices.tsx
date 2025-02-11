@@ -19,7 +19,7 @@ const OurServices = () => {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6">
-            <img src={Family} alt="Family" className='md:ml-auto hiden md:block' />
+            <img src={Family} alt="Family" className='md:ml-auto hidden md:block' />
           </div>
         </div>
       </div>
