@@ -8,7 +8,7 @@ const Categories = () => {
     <div className="py-12">
       <div className="container mx-auto px-4 max-w-7xl">
         <h4 className="text-brick-red-700 text-center text-2xl mb-5 font-medium">Find the ideal insurance for you</h4>
-        <div className="w-full lg:w-4xl overflow-x-auto mx-auto">
+        <div className="w-full lg:w-4xl overflow-x-auto mx-auto px-0 md:px-4 pb-3">
           <div className="flex gap-8 md:gap-12">
             {
               <>

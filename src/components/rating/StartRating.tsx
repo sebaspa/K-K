@@ -26,7 +26,7 @@ const StartRating = ({ rating, totalStars = 5 }: StartRatingProps) => {
     );
   }
 
-  return <div className="flex items-center gap-2 text-lg">{stars}</div>;
+  return <div className="flex items-center text-lg">{stars}</div>;
 }
 
 export default StartRating
