@@ -1,5 +1,6 @@
 import BannerWorld from "./components/BannerWorld"
 import Categories from "./components/Categories"
+import CustomersSaying from "./components/CustomersSaying"
 import Footer from "./components/Footer"
 import MainBanner from "./components/MainBanner"
 import OurServices from "./components/OurServices"
@@ -15,6 +16,7 @@ function App() {
       <Categories />
       <SearchCategories />
       <OurServices />
+      <CustomersSaying />
       <BannerWorld />
       <Footer />
     </>
