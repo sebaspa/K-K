@@ -1,6 +1,6 @@
 const MainMenu = () => {
   return (
-    <div className="shadow-md w-full py-2">
+    <div className="md:shadow-md w-full py-2">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="hidden md:grid grid-cols-12 gap-4">
           <div className="col-span-2">
