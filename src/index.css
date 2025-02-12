@@ -65,3 +65,20 @@
 .label--red {
   @apply text-brick-red-700 text-sm mb-2 font-bold block mt-2;
 }
+
+
+.main-nav {
+  @apply flex items-center gap-3;
+}
+
+.main-nav li a {
+  @apply text-boulder-500;
+}
+
+.main-nav li a.active {
+  @apply text-brick-red-700;
+}
+
+.sub-menu {
+  @apply flex items-center gap-2;
+}
