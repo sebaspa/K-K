@@ -53,3 +53,15 @@
 .card-box-shadow {
   box-shadow: 0px 6px 9px 1px #00000021;
 }
+
+.input--text {
+  @apply bg-[#F9F9F9] w-full text-sm text-[#7A7A7A] border border-[#E6E6E6] rounded-xs px-4 py-3;
+}
+
+.input--select {
+  @apply bg-[#F9F9F9] w-full text-sm text-[#7A7A7A] border border-[#E6E6E6] rounded-xs px-4 py-3;
+}
+
+.label--red {
+  @apply text-brick-red-700 text-sm mb-2 font-bold block mt-2;
+}

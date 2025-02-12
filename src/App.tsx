@@ -1,5 +1,6 @@
 import BannerWorld from "./components/BannerWorld"
 import Categories from "./components/Categories"
+import ContentForm from "./components/ContentForm"
 import CustomersSaying from "./components/CustomersSaying"
 import Footer from "./components/Footer"
 import MainBanner from "./components/MainBanner"
@@ -18,6 +19,7 @@ function App() {
       <OurServices />
       <CustomersSaying />
       <BannerWorld />
+      <ContentForm />
       <Footer />
     </>
   )

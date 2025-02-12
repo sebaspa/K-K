@@ -2,7 +2,7 @@ import imageWorld from '../assets/world.png'
 
 const BannerWorld = () => {
   return (
-    <div className="bg-brick-red-700 py-20">
+    <div className="bg-brick-red-700 pt-20 pb-[400px]">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8">

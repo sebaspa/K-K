@@ -15,7 +15,7 @@ const CardCustomer = ({ rating, desc, img, name }: CardCustomerProps) => {
         {desc}
       </p>
       <div className="flex items-center gap-3">
-        <img src={img} alt="bialy" width={36} height={36} className="rounded-full" />
+        <img src={img} alt={name} width={36} height={36} className="rounded-full" />
         <p className="text-sm text-boulder-500">{name}</p>
       </div>
     </div>
